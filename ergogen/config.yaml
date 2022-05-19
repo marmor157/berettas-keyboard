@@ -95,7 +95,7 @@ points:
             home:
               pin: D4
             top:
-              pin: D1
+              pin: B6
       rows:
         bottom:
         home:
@@ -184,7 +184,7 @@ pcbs:
         nets:
           A: GND
           B: GND
-          C: B6
+          C: D1
           D: VCC
         params:
           reverse: true
