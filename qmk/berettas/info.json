@@ -17,8 +17,8 @@
   "url": "",
   "usb": {
     "device_version": "1.0.0",
-    "pid": "0x0000",
-    "vid": "0xFEED"
+    "pid": "0x2137",
+    "vid": "0xFE45"
   },
   "layouts": {
     "LAYOUT_ortho_3x6_4": {

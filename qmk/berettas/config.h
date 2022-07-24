@@ -22,6 +22,9 @@
         { NO_PIN, NO_PIN, B3, B1, F7, F6 }\
     }
 
+#define BOOTMAGIC_LITE_ROW_RIGHT 4
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 0
+
 /* disable action features */
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
@@ -31,14 +34,13 @@
 #define SOFT_SERIAL_PIN D1
 #define SPLIT_USB_DETECT
 
-// #define DIODE_DIRECTION ROW2COL
-// #define RGB_DI_PIN D0
-// #ifdef RGBLIGHT_ENABLE
-// #    define RGBLED_NUM 22 // Number of LEDs
-// #    define RGBLED_SPLIT
-//         { 6, 6, 6, 4 }
-// #    define RGBLIGHT_EFFECT_BREATHING
-// #    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-// #    define RGBLIGHT_EFFECT_STATIC_GRADIENT
+#define DIODE_DIRECTION ROW2COL
+#define RGB_DI_PIN D0
+#ifdef RGBLIGHT_ENABLE
+    #define RGBLED_NUM 22 // Number of LEDs
 
-// #endif
+    #define RGBLIGHT_EFFECT_BREATHING
+    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
+    #define RGBLIGHT_DEFAULT_VAL 100
+#endif
