@@ -3,7 +3,6 @@
   "keyboard_name": "berettas",
   "maintainer": "marmor157",
   "bootloader": "atmel-dfu",
-  "diode_direction": "ROW2COL",
   "features": {
     "bootmagic": true,
     "command": false,
@@ -18,7 +17,7 @@
   "usb": {
     "device_version": "1.0.0",
     "pid": "0x2137",
-    "vid": "0xFE45"
+    "vid": "0xFA45"
   },
   "layouts": {
     "LAYOUT_ortho_3x6_4": {
