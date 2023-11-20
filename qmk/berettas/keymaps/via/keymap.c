@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LAYER1] = LAYOUT_ortho_3x6_4(
           XXXXXXX,      KC_1,               KC_2,               KC_3,               KC_4,               KC_5,                       KC_6,       KC_7,               KC_8,               KC_9,               KC_0,               XXXXXXX,
           KC_ESC,       KC_COLN,            KC_LBRC,            KC_LCBR,            KC_LPRN,            KC_MINS,                    KC_UNDS,    KC_RPRN,            KC_RCBR,            KC_RBRC,            KC_SCLN,            XXXXXXX,
-          XXXXXXX,      LSFT_T(KC_LSFT),    LALT_T(KC_LALT),    LCTL_T(KC_LABK),    LGUI_T(KC_BSLS),    KC_GRAVE,                   KC_TILDE,   RGUI_T(KC_PIPE),    RCTL_T(KC_RABK),    RALT_T(KC_RALT),    RSFT_T(KC_RSFT),    XXXXXXX,
+          XXXXXXX,      LSFT_T(KC_LSFT),    LALT_T(KC_EQL),     LCTL_T(KC_LABK),    LGUI_T(KC_BSLS),    KC_GRAVE,                   KC_TILDE,   RGUI_T(KC_PIPE),    RCTL_T(KC_PLUS),    RALT_T(KC_RALT),    RSFT_T(KC_RSFT),    XXXXXXX,
                                             XXXXXXX,            KC_SPC,             LAYER0,             KC_ENT,                     KC_ENT,     LAYER2,             KC_BSPC,            LAYER3
     ),
     [_LAYER2] = LAYOUT_ortho_3x6_4(     
